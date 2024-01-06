@@ -1,0 +1,9 @@
+services:
+  apache:
+    environment:
+      - PHP_VERSION=${PHP_VERSION}
+    image: php:${PHP_VERSION}-apache
+    volumes:
+      - ./src:/var/www/html
+    ports:
+      - 31337:80

@@ -1,0 +1,165 @@
+SAPI: cli-server
+PHP Version: 5.5.38
+CONTENT_TYPE is not set
+CONTENT_LENGTH is not set
+
+SAPI: cli-server
+PHP Version: 5.6.40
+CONTENT_TYPE is not set
+CONTENT_LENGTH is not set
+
+SAPI: cli-server
+PHP Version: 7.0.33
+CONTENT_TYPE is not set
+CONTENT_LENGTH is not set
+
+SAPI: cli-server
+PHP Version: 7.1.33
+CONTENT_TYPE is not set
+CONTENT_LENGTH is not set
+
+SAPI: cli-server
+PHP Version: 7.2.34
+CONTENT_TYPE is not set
+CONTENT_LENGTH is not set
+
+SAPI: cli-server
+PHP Version: 7.3.33
+CONTENT_TYPE is not set
+CONTENT_LENGTH is not set
+
+SAPI: cli-server
+PHP Version: 7.4.33
+CONTENT_TYPE is not set
+CONTENT_LENGTH is not set
+
+SAPI: cli-server
+PHP Version: 8.0.30
+CONTENT_TYPE is not set
+CONTENT_LENGTH is not set
+
+SAPI: cli-server
+PHP Version: 8.1.12
+CONTENT_TYPE is not set
+CONTENT_LENGTH is not set
+
+SAPI: cli-server
+PHP Version: 8.2.14
+CONTENT_TYPE is not set
+CONTENT_LENGTH is not set
+
+SAPI: cli-server
+PHP Version: 8.3.1
+CONTENT_TYPE is not set
+CONTENT_LENGTH is not set
+
+SAPI: fpm-fcgi
+PHP Version: 5.5.38
+CONTENT_TYPE is ''
+CONTENT_LENGTH is ''
+
+SAPI: fpm-fcgi
+PHP Version: 5.6.40
+CONTENT_TYPE is ''
+CONTENT_LENGTH is ''
+
+SAPI: fpm-fcgi
+PHP Version: 7.0.33
+CONTENT_TYPE is ''
+CONTENT_LENGTH is ''
+
+SAPI: fpm-fcgi
+PHP Version: 7.1.33
+CONTENT_TYPE is ''
+CONTENT_LENGTH is ''
+
+SAPI: fpm-fcgi
+PHP Version: 7.2.34
+CONTENT_TYPE is ''
+CONTENT_LENGTH is ''
+
+SAPI: fpm-fcgi
+PHP Version: 7.3.33
+CONTENT_TYPE is ''
+CONTENT_LENGTH is ''
+
+SAPI: fpm-fcgi
+PHP Version: 7.4.33
+CONTENT_TYPE is ''
+CONTENT_LENGTH is ''
+
+SAPI: fpm-fcgi
+PHP Version: 8.0.30
+CONTENT_TYPE is ''
+CONTENT_LENGTH is ''
+
+SAPI: fpm-fcgi
+PHP Version: 8.1.27
+CONTENT_TYPE is ''
+CONTENT_LENGTH is ''
+
+SAPI: fpm-fcgi
+PHP Version: 8.2.5
+CONTENT_TYPE is ''
+CONTENT_LENGTH is ''
+
+SAPI: fpm-fcgi
+PHP Version: 8.3.1
+CONTENT_TYPE is ''
+CONTENT_LENGTH is ''
+
+SAPI: apache2handler
+PHP Version: 5.5.38
+CONTENT_TYPE is not set
+CONTENT_LENGTH is not set
+
+SAPI: apache2handler
+PHP Version: 5.6.40
+CONTENT_TYPE is not set
+CONTENT_LENGTH is not set
+
+SAPI: apache2handler
+PHP Version: 7.0.33
+CONTENT_TYPE is not set
+CONTENT_LENGTH is not set
+
+SAPI: apache2handler
+PHP Version: 7.1.33
+CONTENT_TYPE is not set
+CONTENT_LENGTH is not set
+
+SAPI: apache2handler
+PHP Version: 7.2.34
+CONTENT_TYPE is not set
+CONTENT_LENGTH is not set
+
+SAPI: apache2handler
+PHP Version: 7.3.33
+CONTENT_TYPE is not set
+CONTENT_LENGTH is not set
+
+SAPI: apache2handler
+PHP Version: 7.4.33
+CONTENT_TYPE is not set
+CONTENT_LENGTH is not set
+
+SAPI: apache2handler
+PHP Version: 8.0.30
+CONTENT_TYPE is not set
+CONTENT_LENGTH is not set
+
+SAPI: apache2handler
+PHP Version: 8.1.27
+CONTENT_TYPE is not set
+CONTENT_LENGTH is not set
+
+SAPI: apache2handler
+PHP Version: 8.2.14
+CONTENT_TYPE is not set
+CONTENT_LENGTH is not set
+
+SAPI: apache2handler
+PHP Version: 8.3.1
+CONTENT_TYPE is not set
+CONTENT_LENGTH is not set
+

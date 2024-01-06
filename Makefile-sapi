@@ -1,0 +1,30 @@
+ifndef VERBOSE
+.SILENT:
+endif
+
+SAPI=apache
+PHP_VERSIONS=5.5 5.6 7.0 7.1 7.2 7.3 7.4 8.0 8.1 8.2 8.3
+
+.PHONY: all
+all: test
+
+.PHONY: test
+test: $(patsubst %,test-%,$(PHP_VERSIONS))
+
+.PHONY: test-%
+test-%: | webserver-start-% curl-% webserver-stop-%
+	true
+
+.PHONY: curl-%
+curl-%: webserver-start-%
+	curl -X POST http://localhost:31337/ -H 'Content-Type:' -H 'Content-length:' -d '' >> output.txt
+	echo >> output.txt
+
+.PHONY: webserver-start-%
+webserver-start-%:
+	PHP_VERSION=$* docker compose -f docker-compose-${SAPI}.yml up  -d
+	sleep 2
+
+.PHONY: webserver-stop-%
+webserver-stop-%:
+	PHP_VERSION=$* docker compose -f docker-compose-${SAPI}.yml down
